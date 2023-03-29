@@ -1,0 +1,34 @@
+.tierDiv {
+	border: 0.1rem;
+	border-radius: 0.3rem;
+	border-color: var(--bs-gray-300);
+	border-style: solid;
+	padding: 1rem;
+}
+
+#profileWrapper {
+	max-width: 60rem;
+}
+
+.orderCard {
+	border: 0.1rem;
+	border-radius: 0.3rem;
+	border-color: var(--bs-gray-300);
+	border-style: solid;
+	padding: 1rem;
+	white-space: nowrap;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1rem;
+}
+
+.orderCard > * {
+	width: fit-content;
+}
+
+.ordersWrapper {
+	margin-left: -1rem;
+	padding-bottom: 1rem;
+	overflow-x: auto;
+	white-space: nowrap;
+}

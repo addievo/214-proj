@@ -1,0 +1,107 @@
+#wrapper {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 3.5rem 1fr;
+	transition: grid-template-columns 0.5s;
+}
+
+main {
+	padding: 1rem;
+}
+
+.header-block {
+	grid-column: 1;
+	grid-row: 1;
+	background: #403440;
+}
+nav {
+	grid-column: 2;
+	grid-row: 1;
+}
+#sideBar {
+	grid-column: 1;
+	grid-row: 2;
+}
+main {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.navbar {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: #292129 !important;
+}
+.navbar-brand > img {
+	width: 1.875rem;
+	height: 1.875rem;
+	margin-right: 0.3125rem;
+}
+.navbar > div > * {
+	display: inline-block;
+}
+.navbar > div > i , .navbar > div > a > i {
+	margin-left: 1.5rem;
+	font-size: 1.25rem;
+	padding-bottom: 0.4rem;
+}
+
+i {
+	cursor: pointer;
+}
+.bi-list {
+	font-size: 2rem;
+	margin-left: 0.75rem;
+}
+
+.list-group > a {
+	text-decoration: none;
+}
+#sideItem {
+	height: 2.8125rem;
+	padding-left: 1.1rem;
+}
+#sideItem, #sideBar {
+	background-color: #f7f0f7;
+	overflow: hidden;
+}
+#sideItem:hover, .navLinkActive > li {
+	background: #faf7fa !important;
+}
+#sideItem > * {
+	color: var(--bs-gray-dark);
+	font-size: 1.15rem;
+	white-space: nowrap;
+}
+#sideItem > i {
+	margin-right: 1.2rem;
+}
+
+#accountDropdown {
+	position: absolute;
+	top: 3.5rem;
+	right: 0;
+	background: var(--bs-gray-100);;
+	border-radius: 0 0 0 0.3rem;
+	border: 0.1rem;
+	border-color: var(--bs-gray-300);
+	border-style: solid;
+}
+
+#accountDropdown > ul {
+	background: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#accountDropdown > ul > a {
+	text-decoration: none;
+}
+
+#accountDropdown > ul > a > li {
+	color: var(--bs-body-color);
+	font-size: 0.9rem;
+	padding: 0;
+	margin: 0.5rem 3rem 0.5rem 1rem;
+}

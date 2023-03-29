@@ -1,0 +1,54 @@
+.cartData {
+	vertical-align: top;
+}
+
+.cartData > img {
+	max-width: 10rem;
+	max-height: 10rem;
+}
+
+.cartData > h5 {
+	font-weight: 600;
+}
+
+td {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+#tableDivider > td {
+	background: var(--bs-gray-300);
+	height: 0.2rem;
+	padding: 0rem;
+}
+
+tr:nth-child(2n) {
+	background: var(--bs-gray-100);
+}
+
+.whiteBG > td {
+	background: white !important;
+}
+
+.descriptionTD {
+	min-width: 15rem;
+}
+
+img.rewardImg {
+	object-fit: cover;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	min-width: 7rem;
+}
+
+td.rewardImg {
+	vertical-align: middle;
+}
+
+.rightText {
+	text-align: right;
+}
+
+.centerText {
+	text-align: center;
+}

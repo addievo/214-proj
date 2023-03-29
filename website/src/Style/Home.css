@@ -1,0 +1,43 @@
+.homeWrapper {
+	width: calc(100% + 2rem);
+	height: calc(100% + 2rem);
+	background-repeat: no-repeat !important;
+	background-position: bottom !important;
+	background-size: cover !important;
+	margin: -1rem;
+	padding: 1rem;
+	display: flex;
+	flex-flow: column;
+}
+
+.banner {
+	color: white;
+	padding: 3rem;
+	margin: -1rem -1rem 0 -1rem;
+	padding: 7rem 3rem;
+	
+	background-repeat: no-repeat !important;
+	background-position: bottom !important;
+	background-size: cover !important;
+}
+
+.bodyText {
+	background: linear-gradient(45deg, #ffe3fc, #fff4e3);
+	padding: 3rem;
+	flex-grow: 1;
+	margin: 0 -1rem -1rem -1rem;
+	
+}
+
+.bodyText > div {
+	max-width: 55rem;
+}
+
+img.homeIcon {
+	width: 7rem;
+}
+
+h5.homeIcon, .col.text-center > a {
+	text-decoration: none;
+	color: var(--bs-body-color);
+}

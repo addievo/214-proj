@@ -1,0 +1,23 @@
+#rewardsTable {
+	width: calc(100% + 2rem);
+	border-collapse: separate;
+	border-spacing: 1rem;
+	margin: -1rem;
+}
+
+#rewardsTable > tbody > tr > td {
+	width: 33.33%;
+	border: 0.1rem;
+	border-radius: 0.3rem;
+	border-color: var(--bs-gray-300);
+	border-style: solid;
+	padding: 1rem;
+	overflow: hidden;
+}
+
+#rewardsTable > tbody > tr > td > img {
+	object-fit: cover;
+	width: calc(100% + 2rem);
+	aspect-ratio: 16 / 9;
+	margin: -1rem -1rem 1rem -1rem;
+}
