@@ -3,9 +3,9 @@
 	border-collapse: separate;
 	border-spacing: 1rem;
 	margin: -1rem;
-}
-
-#rewardsTable > tbody > tr > td {
+  }
+  
+  #rewardsTable > tbody > tr > td {
 	width: 33.33%;
 	border: 0.1rem;
 	border-radius: 0.3rem;
@@ -13,11 +13,86 @@
 	border-style: solid;
 	padding: 1rem;
 	overflow: hidden;
-}
-
-#rewardsTable > tbody > tr > td > img {
+  }
+  
+  #rewardsTable > tbody > tr > td > img {
 	object-fit: cover;
 	width: calc(100% + 2rem);
 	aspect-ratio: 16 / 9;
 	margin: -1rem -1rem 1rem -1rem;
-}
+  }
+  
+  .reward {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+  }
+  
+  .reward-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+  }
+  
+  .reward-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+  }
+  
+  .reward-price {
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+  }
+  
+  .reward-description {
+	font-size: 0.9rem;
+	margin-bottom: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+  }
+  
+  .reward-actions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .reward-btn {
+	background-color: var(--bs-primary);
+	color: white;
+	border-radius: 0.25rem;
+	padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+	border: none;
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .reward-btn:hover {
+	background-color: var(--bs-primary-dark);
+  }
+  
+  .wishlist-btn {
+	background-color: transparent;
+	color: var(--bs-primary);
+	border-radius: 0.25rem;
+	padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+	border: 0.1rem solid var(--bs-primary);
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .wishlist-btn:hover {
+	background-color: var(--bs-primary);
+	color: white;
+	border-color: var(--bs-primary-dark);
+  }
+  
